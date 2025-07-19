@@ -14,7 +14,6 @@ export async function analyzeProductImage(frontImage: string, backImage: string)
 
       const prompt = `
       Analyze these food product images (front and back labels) and provide a comprehensive nutritional analysis.
-
       Please extract and analyze the information and return ONLY a valid JSON object with this exact structure:
 
       {
